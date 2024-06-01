@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file for styling -->
+    <style>
+        /* Internal CSS for quick styling */
+        body {
+            font-family: Arial, sans-serif; /* Sets the font for the body */
+            margin: 0; /* Removes default margin */
+            padding: 0; /* Removes default padding */
+            background-color: #f0f0f0; /* Sets background color */
+        }
+        header {
+            background-color: #333; /* Dark background color */
+            color: white; /* White text color */
+            padding: 1em 0; /* Adds padding to top and bottom */
+            text-align: center; /* Centers the text */
+        }
+        nav {
+            margin: 1em 0; /* Adds margin to top and bottom */
+            text-align: center; /* Centers the text */
+        }
+        nav a {
+            margin: 0 1em; /* Adds margin to left and right */
+            color: #333; /* Sets text color */
+            text-decoration: none; /* Removes underline from links */
+        }
+        main {
+            padding: 1em; /* Adds padding */
+        }
+        footer {
+            background-color: #333; /* Dark background color */
+            color: white; /* White text color */
+            text-align: center; /* Centers the text */
+            padding: 1em 0; /* Adds padding to top and bottom */
+            position: fixed; /* Fixes the position at the bottom */
+            width: 100%; /* Makes it full width */
+            bottom: 0; /* Positions it at the bottom */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Website</h1> <!-- Main heading in the header -->
+    </header>
+    <nav>
+        <a href="#home">Home</a> <!-- Navigation link to Home section -->
+        <a href="#about">About</a> <!-- Navigation link to About section -->
+        <a href="#services">Services</a> <!-- Navigation link to Services section -->
+        <a href="#contact">Contact</a> <!-- Navigation link to Contact section -->
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2> <!-- Subheading for Home section -->
+            <p>This is the home section of your website.</p> <!-- Paragraph describing Home section -->
+        </section>
+        <section id="about">
+            <h2>About</h2> <!-- Subheading for About section -->
+            <p>This is the about section of your website.</p> <!-- Paragraph describing About section -->
+        </section>
+        <section id="services">
+            <h2>Services</h2> <!-- Subheading for Services section -->
+            <p>This is the services section of your website.</p> <!-- Paragraph describing Services section -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2> <!-- Subheading for Contact section -->
+            <p>This is the contact section of your website.</p> <!-- Paragraph describing Contact section -->
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Your Website. All rights reserved. <!-- Footer text with copyright -->
+    </footer>
+    <script src="scripts.js"></script> <!-- Link to an external JavaScript file -->
+</body>
+</html>
 
