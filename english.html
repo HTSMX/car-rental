@@ -48,6 +48,10 @@
                 topButton.style.display = "none";
             }
         };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     </script>
     
     <main>
@@ -224,7 +228,8 @@ Driving in Manzanillo is generally straightforward, with well-maintained roads a
 
 <p>Driving in Tijuana can be straightforward, but it's important to be aware of local traffic conditions and driving customs. While the city's main roads are well-maintained, traffic can be heavy during peak hours. Parking is generally available, though it can be limited in busy areas, so planning ahead is advisable.</p> 
 
-<a href="#top-anchor" id="top">Back to Top</a>
+  <button id="top" onclick="scrollToTop()">Top</button>
+            
         </section>
         <section id="promotions">
             <h2>Promotions</h2> <!-- Subheading for Services section -->
