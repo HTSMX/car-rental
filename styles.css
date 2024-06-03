@@ -1,4 +1,19 @@
+.mexican-header {
+    background-color: #FCD116; /* Mexican Flag Yellow */
+    color: #006847; /* Mexican Flag Green */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #CE1126; /* Mexican Flag Red */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif; /* Common font for readability */
+}
 
+.mexican-header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 body {
     font-family: Arial, sans-serif;
 }
