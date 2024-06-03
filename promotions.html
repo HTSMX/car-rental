@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file for styling -->
+   
+</head>
+<body>
+     <a id="top-anchor"></a>
+    <header>
+        <h1>Car Rental in Mexico</h1> <!-- Main heading in the header -->
+    </header>
+    <nav>
 
+
+         <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Destinations</a>
+                <div class="dropdown-content">
+                    <a href="#cabo">Cabo San Lucas</a>
+                    <a href="#cancun">Cancun</a>
+                    <a href="#colima">Colima</a>
+                    <a href="#guadalajara">Guadalajara</a>
+                    <a href="#hermosillo">Hermosillo</a>
+                    <a href="#manzanillo">Mananillo</a>
+                    <a href="#mazatlan">Mazatlan</a>
+                    <a href="#mexico_city">Mexico City</a>
+                    <a href="#monterrey">Monterrey</a>
+                    <a href="#puebla">Puebla</a>
+                    <a href="#puerto_vallarta">Puerto Vallarta</a>
+                    <a href="#tijuana">Tijuana</a>
+                </div>
+            </li>
+            <li><a href="#promotions">Promotions</a></li>
+              <li><a href="/index.html"">Español</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        window.onscroll = function() {
+            var topButton = document.getElementById("top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                topButton.style.display = "block";
+            } else {
+                topButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    
+    <main>
+        
+  
+ 
+      <button id="top" onclick="scrollToTop()">Back to Top</button>
+    </main>
+    <footer>
+        &copy; 2024 Your Website. All rights reserved. <!-- Footer text with copyright -->
+    </footer>
+    <script src="scripts.js"></script> <!-- Link to an external JavaScript file -->
+</body>
+</html>
