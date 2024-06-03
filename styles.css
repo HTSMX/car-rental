@@ -1,10 +1,10 @@
 
 .mexican-header {
-    background-color: #CE1126; /* Mexican Flag Red */
+    background-color:#006847; /* Mexican Flag Red */
     color: #FFFFFF; /* White */
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #006847; /* Mexican Flag Green */
+    border-bottom: 2px solid #CE1126; /* Mexican Flag Green */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif; /* Common font for readability */
 }
