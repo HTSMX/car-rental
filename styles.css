@@ -1,37 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
-}
+            font-family: Arial, sans-serif; /* Sets the font for the body */
+            margin: 0; /* Removes default margin */
+            padding: 0; /* Removes default padding */
+            background-color: #f0f0f0; /* Sets background color */
+        }
+        header {
+            background-color: #333; /* Dark background color */
+            color: white; /* White text color */
+            padding: 1em 0; /* Adds padding to top and bottom */
+            text-align: center; /* Centers the text */
+        }
 
-nav {
-    background-color: #333;
-}
+        nav {
+            margin: 1em 0; /* Adds margin to top and bottom */
+            text-align: center; /* Centers the text */
+        }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+        nav a {
+            margin: 0 1em; /* Adds margin to left and right */
+            color: #333; /* Sets text color */
+            text-decoration: none; /* Removes underline from links */
+        }
 
-nav ul li {
-    float: left;
-}
-
-nav ul li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover, .dropdown:hover .dropbtn {
-    background-color: #111;
-}
-
-nav ul li.dropdown {
-    display: inline-block;
-}
 
 .dropdown-content {
     display: none;
@@ -57,4 +47,19 @@ nav ul li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+
+        main {
+            padding: 1em; /* Adds padding */
+        }
+        footer {
+            background-color: #333; /* Dark background color */
+            color: white; /* White text color */
+            text-align: center; /* Centers the text */
+            padding: 1em 0; /* Adds padding to top and bottom */
+            position: fixed; /* Fixes the position at the bottom */
+            width: 100%; /* Makes it full width */
+            bottom: 0; /* Positions it at the bottom */
+        }
 
