@@ -9,6 +9,10 @@
     font-family: 'Arial', sans-serif; /* Common font for readability */
 }
 
+main {
+     padding: 14px 16px;
+}
+
 .mexican-header h1 {
     margin: 0;
     font-size: 36px;
