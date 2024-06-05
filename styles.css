@@ -103,6 +103,7 @@ nav ul li.dropdown {
 }
 
 /* CSS de Cupones */
+
 .cupones-container {
     display: flex;
     flex-wrap: wrap;
