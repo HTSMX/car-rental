@@ -118,6 +118,9 @@ nav ul li.dropdown {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-sizing: border-box;
+    flex-grow: 1;
+    max-width: calc(25% - 20px); /* Limitamos el ancho máximo para evitar que se estire demasiado */
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
