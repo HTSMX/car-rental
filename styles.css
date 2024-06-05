@@ -101,3 +101,31 @@ nav ul li.dropdown {
     background-color: #555555;
     transform: translateY(-2px);
 }
+
+.cupon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cupon {
+    width: calc(25% - 20px); /* El ancho de cada cupón (25% del ancho total menos el espacio entre ellos) */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+@media screen and (max-width: 1024px) {
+    .cupon {
+        width: calc(50% - 20px); /* Cambia el ancho en dispositivos más pequeños (dos cupones por fila) */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cupon {
+        width: 100%; /* Cambia el ancho en dispositivos aún más pequeños (un cupón por fila) */
+    }
+}
+
