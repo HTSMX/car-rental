@@ -145,3 +145,8 @@ nav ul li.dropdown {
         width: calc(100% - 20px); /* Ajustamos el ancho para dispositivos móviles */
     }
 }
+
+coupon h2 a{
+    text-decoration: none;
+      color: black;
+}
