@@ -103,19 +103,20 @@ nav ul li.dropdown {
 }
 
 /* CSS de Cupones */
-.cupon-container {
+.cupones-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .cupon {
-    width: calc(25% - 20px); /* El ancho de cada cupón (25% del ancho total menos el espacio entre ellos) */
+    width: calc(25% - 20px); /* Calculamos el ancho restando el margen entre cupones */
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
