@@ -107,19 +107,18 @@ nav ul li.dropdown {
 .cupones-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around; /* Modificamos la justificación para centrar los cupones */
     padding: 20px;
+    max-width: 1200px; /* Ajustamos el ancho máximo del contenedor */
+    margin: 0 auto; /* Centramos el contenedor en la página */
 }
 
 .cupon {
-    width: calc(25% - 20px); /* Calculamos el ancho restando el margen entre cupones */
+    width: calc(25% - 40px); /* Reducimos un poco el ancho para compensar el espacio entre los cupones */
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-sizing: border-box;
-    flex-grow: 1;
-    max-width: calc(25% - 20px); /* Limitamos el ancho máximo para evitar que se estire demasiado */
     box-sizing: border-box;
 }
 
