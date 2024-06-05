@@ -107,7 +107,7 @@ nav ul li.dropdown {
 .cupones-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Modificamos la justificación para centrar los cupones */
+    justify-content: flex-start; /* Modificamos la justificación para alinear a la izquierda */
     padding: 20px;
     max-width: 1200px; /* Ajustamos el ancho máximo del contenedor */
     margin: 0 auto; /* Centramos el contenedor en la página */
@@ -115,6 +115,7 @@ nav ul li.dropdown {
 
 .cupon {
     width: calc(25% - 40px); /* Reducimos un poco el ancho para compensar el espacio entre los cupones */
+    margin-right: 20px; /* Agregamos un margen derecho */
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -122,15 +123,25 @@ nav ul li.dropdown {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+/* Añadimos un estilo para el último cupón en una fila */
+.cupon:nth-child(4n) {
+    margin-right: 0; /* Eliminamos el margen derecho para el último cupón en cada fila */
+}
+
+@media screen and (max-width: 992px) {
     .cupon {
-        width: calc(50% - 20px); /* Cambia el ancho en dispositivos más pequeños (dos cupones por fila) */
+        width: calc(33.33% - 30px); /* Ajustamos el ancho para pantallas más pequeñas */
     }
 }
 
 @media screen and (max-width: 768px) {
     .cupon {
-        width: 100%; /* Cambia el ancho en dispositivos aún más pequeños (un cupón por fila) */
+        width: calc(50% - 20px); /* Ajustamos el ancho para pantallas aún más pequeñas */
     }
 }
 
+@media screen and (max-width: 576px) {
+    .cupon {
+        width: calc(100% - 20px); /* Ajustamos el ancho para dispositivos móviles */
+    }
+}
